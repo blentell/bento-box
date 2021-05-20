@@ -1,0 +1,36 @@
+.main {
+	border: 1px solid red;
+	width: 413px;
+	height: 463px;
+	display: grid;
+	/* grid-template-columns: 113px 181px 115px;
+	grid-template-rows: 80px 102px 202px 81px; */
+	grid-template-areas:
+		"fish fish vaseShort"
+		"map map vaseShort"
+		"vaseTall bamboo bamboo"
+		"vaseTall octopus octopus";
+}
+
+.fish {
+	grid-area: fish;
+}
+.map {
+	grid-area: map;
+}
+
+.vaseShort {
+	grid-area: vaseShort;
+}
+
+.vaseTall {
+	grid-area: vaseTall;
+}
+
+.bamboo {
+	grid-area: bamboo;
+}
+
+.octopus {
+	grid-area: octopus;
+}
