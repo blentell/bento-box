@@ -3,8 +3,8 @@
 	width: 413px;
 	height: 463px;
 	display: grid;
-	/* grid-template-columns: 113px 181px 115px;
-	grid-template-rows: 80px 102px 202px 81px; */
+	grid-template-columns: 113px 181px 115px;
+	grid-template-rows: 80px 102px 202px 81px;
 	grid-template-areas:
 		"fish fish vaseShort"
 		"map map vaseShort"
